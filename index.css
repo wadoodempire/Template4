@@ -1,0 +1,271 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+  }
+  .my_logo_main {
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+  
+  .about_me__main {
+    width: 50%;
+  }
+  .my_logo_heading {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  .logos {
+    flex-direction: column;
+    display: flex;
+  }
+  .home {
+    padding-top: px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+  }
+  .home:hover {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .about_me__main {
+    width: 50%;
+    text-align: center;
+    background-color: #607d8b;
+    color: white;
+    padding-bottom: 70px;
+  }
+  .pic {
+    border-radius: 50%;
+    width: 50%;
+  }
+  .about_me_heading {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .about_me_pra {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .my_work_main {
+    width: 50%;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .my_work_heading {
+    padding-top: 40px;
+  }
+  .my_work_pra {
+    padding-bottom: 80px;
+  }
+  .my_work_pra_2 {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  .images_2_main {
+    display: none;
+  }
+  .resume_main {
+    width: 50%;
+    text-align: center;
+    background-color: #3f51b5;
+    color: white;
+  }
+  .resume_heading {
+    padding-top: 40px;
+  }
+  .resume_pra {
+    padding-bottom: 80px;
+  }
+  .table_main {
+    margin-left: 100px;
+    border-spacing: inherit;
+    line-height: 22.5555px;
+    margin: auto;
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .table_white {
+    background-color: white;
+    color: black;
+  }
+
+
+
+  .container_2 {
+    width: 100%;
+    display: flex;
+  }
+  .images {
+    width: 50%;
+  }
+  .images_1 {
+    display: flex;
+  }
+  .images_2 {
+    display: flex;
+  }
+  .images_3 {
+    display: flex;
+  }
+  .container_3 {
+    width: 100%;
+    display: flex;
+  }
+  .swing_by_main {
+    width: 50%;
+    text-align: center;
+    background-color: #616161;
+    color: white;
+  }
+  .contact_main {
+    width: 50%;
+    text-align: left;
+    background-color: #009688;
+    color: white;
+  }
+  .swing_heading {
+    padding-top: 40px;
+    padding-bottom: 100px;
+   
+  }
+  .contact_heading {
+    padding-top: 40px;
+    padding-left: 50px;
+   
+  }
+  .contact_pra_main {
+    padding-left: 50px;
+  }
+  .contact_pra_last {
+    padding-bottom: 100px;
+  }
+
+  .input{
+    display: flex;
+    flex-direction: column;
+  }
+  .name_text {
+    padding-top: 20px;
+  }  
+  .form {
+    background-color: white;
+    margin: 50px;
+    padding: 50px;
+    padding-bottom: 60px; 
+    color: black;
+  }
+  .input_text {
+    border: none;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
+      border-bottom-width: medium;
+    border-bottom: 1px solid;
+    padding: 10px;
+  }
+  .button {
+    margin-top: 14px;
+    padding: 10px 16px;
+    float: right;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    border: none;
+    background-color: #009688;
+    color: white;
+    text-transform: capitalize;
+  }
+  .button:hover {
+    background-color: #868686;
+    color: black;
+  }
+
+  .container_main {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: initial;
+    
+  }
+
+
+  .footer_main {
+    background-color: black;
+    color: white;
+    padding: 25px;
+  }
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+
+   
+    .container {
+      width: 100%;
+      display: grid;
+    }
+    .my_logo_main {
+      width: 100%;
+      padding-bottom: 100px;
+    }
+    .about_me__main {
+      width: 100%;
+    }
+    .container_2 {
+      width: 100%;
+      display: grid;
+    }
+    .my_work_main {
+      width: 100%;
+    }
+    .resume_main {
+      width: 100%;
+      padding-bottom: 35px;
+    }
+    
+    .container_3 {
+      width: 100%;
+      display: grid;
+    }
+    .swing_by_main {
+      width: 100%;
+    }
+    .contact_main {
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    .images_2_main {
+      display: block;
+    }
+    .images_6_main {
+      display: none;
+    }
+    .images {
+      width: 100%;
+      margin-bottom: -8px;
+    }
+  }
+
+ 
